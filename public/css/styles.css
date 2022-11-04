@@ -1,0 +1,78 @@
+ html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 45px;
+  text-align: center;
+  color: #282E33;
+}
+
+p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #B8BFCC;
+  margin-top: 1.25rem;
+  margin-bottom: 1.875rem;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.hero-block {
+  box-shadow: 5px 5px 60px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  width: 53.93rem;
+  height: 36.25rem;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+.hero-image {
+    width: 15rem;
+    height: auto;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  /* margin-bottom: 10px; */
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: 8px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.signup-btn {
+  background: #6765FD;
+  border-radius: 10px;
+  width: 200px;
+  height: 60px;
+  margin: auto;
+  position: relative;
+  top: 1.8rem;
+}
+
+/* .signup-btn:hover {
+  background-color: #fff;
+} */
